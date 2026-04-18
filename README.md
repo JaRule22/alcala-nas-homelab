@@ -16,7 +16,7 @@ A self-built home lab environment designed for high-performance storage, media s
 - HDD: media storage (Movies, TV)
 - SSD: Application data, cache, and transcoding
 
-##Skills Demonstrated 📚
+## Skills Demonstrated 📚
 - Docker containerization
 - Systems & network administration
 - Storage architecture and management
