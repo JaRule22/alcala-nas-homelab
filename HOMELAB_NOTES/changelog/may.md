@@ -18,7 +18,7 @@
 - Improved upload bandwidth efficiency for external Jellyfin users
 - Improved compatibility with Apple TV users.
 
-## v0.5 - 05-09-2026
+## v0.5 - 05-08-2026
 ### Added
 - Configured remote Jellyfin access using Nginx Proxy Manager reverse proxy
 - Configured Cloudflare DDNS for automatic public IP updates
