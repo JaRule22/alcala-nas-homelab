@@ -1,3 +1,21 @@
+## 05/08/2026 - Nginx Proxy Manager SSL Certificate Failed to Generate
+
+### Issue
+Nginx Proxy Manager failed to generate a Let's Encrypt SSL certificate for alcalaflix.com
+
+### Cause
+Incorrect Docker/NPM port mapping config
+External ports 80 and 443 were not properly mapped to container ports
+NPM container permissions caused certificate generation issues
+Remote HTTP validation requests could not properly reach the NPM container
+
+### Solution
+Corrected Docker Port mappings for ports 80, 81, and 443
+Configure Spectrum router port forwarding ports 80 and 443
+Enabled privileged mode for the NPM container
+Verified Cloudflare DNS config was set to DNS only
+Restarted NPM container and successfully regenerated SSL certficates
+
 ## 04/06/2026 - Jellyfin docker container has failed to start
 
 ### Issue
