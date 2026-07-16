@@ -1,3 +1,15 @@
+## 05/27/2026 - Remote Jellyfin access issues
+
+### Issue
+When someone tries to access my server using it's domain (https://alcalaflix.com), it will load and then
+it times out.
+
+### Cause
+- Got a new router
+
+### Solution
+- Forward ports again for web access. Port 80 (HTTP) and 443 (HTTPS).
+
 ## 05/09/2026 - Remote Jellyfin Playback Buffering and Playback Failures
 
 ### Issue
