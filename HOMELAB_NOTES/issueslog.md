@@ -8,12 +8,13 @@ Web browser could reach the domain but Chrome showed NET::ERR_CERT_DATE_INVALID 
 - SSL certificate for alcalaflix.com expired on 08/06/2026. Let's Encrypt auto-renewal via Ngix Proxy manager failed silently
 - Possibly happened during a recent router reset, which was suspected as the cause (re-added port 80/443 forwarding after reset)
 - Also discovered during troubleshooting that Cloudflare AAAA (IPv6) record was stale, and that the home network currently has no active IPv6 connectivity at all. Not the root cause but good to know.
-## 05/27/2026 - Remote Jellyfin access issues
 
 ### Solution
 - In Nginx Porxy Manager -> Proxy Host -> SSL tab -> Request a new SSL Certificate for alcalaflix.com. New cert valid until 11/06/2026
 - removed the stale Cloudflare AAAA record.
 - Would need to follow up and check if the auto-renewal didn't activate at 11/06/2026
+  
+## 05/27/2026 - Remote Jellyfin access issues
 
 ### Issue
 When someone tries to access my server using it's domain (https://alcalaflix.com), it will load and then
