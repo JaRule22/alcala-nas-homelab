@@ -1,3 +1,14 @@
+## 10/03/2026 - Forgot the NGINX Server password
+
+### Issue
+The username and password did not save on my password manager and have forgotten that password I set for the NGINX Server
+
+### Cause
+Password manager did not save the password
+
+### Solution
+Working on it...
+
 ## 08/08/2026 - Jellyfin app "Server Offline"
 
 ### Issue
