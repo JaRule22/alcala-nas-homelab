@@ -7,7 +7,9 @@ The username and password did not save on my password manager and have forgotten
 Password manager did not save the password
 
 ### Solution
-Working on it...
+- Backed up the NGINX server folders because I will be editing the database.sqlite
+- Downloaded SQLite on my personal device and removed the forgotten account. The NGINX server should default to setting up a new account.
+- I saved the new username and password manually to my password manager and was able to login without any config changes or deletion.
 
 ## 08/08/2026 - Jellyfin app "Server Offline"
 
