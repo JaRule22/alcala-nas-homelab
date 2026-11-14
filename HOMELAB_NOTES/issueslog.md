@@ -1,4 +1,16 @@
-## 10/03/2026 - Forgot the NGINX Server password
+## 11/14/2026 - NGINX account is temporarily prevented from requesting certs for "alcalaflix.com"
+
+### Issue
+Requesting new SSL certificates for my domain "alcalaflix.com" is temporarily disabled.
+
+### Cause
+
+
+### Solution
+- Working on it
+
+
+## 11/13/2026 - Forgot the NGINX Server password
 
 ### Issue
 The username and password did not save on my password manager and have forgotten that password I set for the NGINX Server
