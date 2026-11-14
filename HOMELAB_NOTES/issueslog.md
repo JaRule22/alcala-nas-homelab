@@ -4,6 +4,7 @@
 Requesting new SSL certificates for my domain "alcalaflix.com" is temporarily disabled.
 
 ### Cause
+- Potentially: Since I moved my NAS to a different network, the NGINX manager automatically sent SSL renew requests many times and flagged my domain as a zombie account. Which would explain why I was temporarily prevented from requesting certs for "alcalaflix.com"
 
 
 ### Solution
