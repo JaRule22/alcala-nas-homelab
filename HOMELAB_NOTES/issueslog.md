@@ -9,7 +9,7 @@ Requesting new SSL certificates for my domain "alcalaflix.com" is temporarily di
 - WHAT REALLY WENT WRONG:
 - I was correct to say that my domain was flagged and paused as a zombie account, however I did found that my router was forwarding the incorrect ports. This would also explain why I wasn't able to get into my domain after fixing the blocked domain issue. 
 
-### Solution
+### Solution (11/25/2026)
 - Reset the NPM login by editing _database.sqlite(is_deleted=1)_
 - Created a **new Let's Encrypt account** by renaming the accounts folder, which sidestepped the pause
 - Created a **Cloudflare API token** and used the **DNS challenge** in NPM to get the new cert
