@@ -6,9 +6,14 @@ Requesting new SSL certificates for my domain "alcalaflix.com" is temporarily di
 ### Cause
 - Potentially: Since I moved my NAS to a different network, the NGINX manager automatically sent SSL renew requests many times and flagged my domain as a zombie account. Which would explain why I was temporarily prevented from requesting certs for "alcalaflix.com"
 
+- WHAT REALLY WENT WRONG:
+- I was correct to say that my domain was flagged and paused as a zombie account, however I did found that my router was forwarding the incorrect ports. This would also explain why I wasn't able to get into my domain after fixing the blocked domain issue. 
 
 ### Solution
-- Working on it
+- Reset the NPM login by editing _database.sqlite(is_deleted=1)_
+- Created a **new Let's Encrypt account** by renaming the accounts folder, which sidestepped the pause
+- Created a **Cloudflare API token** and used the **DNS challenge** in NPM to get the new cert
+- Fixed the port forwarding to the proper ports instead of forwarding to 9999
 
 
 ## 11/13/2026 - Forgot the NGINX Server password
